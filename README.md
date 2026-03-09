@@ -31,8 +31,23 @@ The tables are connected using foreign key relationships to maintain data integr
 - Book copies track the number of copies available in each library branch.
 - Book loans connect borrowers with the books they have borrowed.
 
-## Data Source
-CSV files used to populate the tables are stored in the **dataset** folder.
+## Dataset
+
+The dataset consists of multiple CSV files representing the tables of a library management system.
+
+The files include data for:
+
+- Publishers
+- Library branches
+- Borrowers
+- Books
+- Authors
+- Book copies
+- Book loans
+
+These CSV files were imported into MySQL following the relational schema.
+
+All dataset files are available in the **dataset** folder.
 
 ## SQL Concepts Used
 - Primary Keys
@@ -68,5 +83,7 @@ library-database-sql-case-study/
     └── tbl_book_loans.csv
 
 ## Technologies Used
+
 - MySQL
+- MySQL Workbench
 - GitHub
